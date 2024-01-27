@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "[Linux] Lambda Mock Test (dotnet-lambda-test-tool-6.0)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${userHome}/.dotnet/tools/dotnet-lambda-test-tool-6.0",
+            "args": [
+                "--port",
+                "5050",
+                "--path",
+                "${workspaceFolder}/src/MyTemplate.Entrypoint/bin/Debug/net6.0"
+            ],
+            "env": {
+                "EXECUTING_ENVIRONMENT": "local"
+            },
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

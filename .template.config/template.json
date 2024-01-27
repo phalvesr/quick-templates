@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "ROSEPED",
+    "classifications": [
+        "aws",
+        "lamda",
+        "sqs"
+    ],
+    "description": "A template for creating a lambda function that is triggered by an SQS queue",
+    "tags": {
+        "language": "csharp",
+        "platform": "aws",
+        "type": "project"
+    },
+    "identity": "quicktemplates.lambda.sqs",
+    "name": "Quick templates Lambda for SQS queue",
+    "shortName": "quicktemplates.lambda.sqs",
+    "sourceName": "MyTemplate"
+}
