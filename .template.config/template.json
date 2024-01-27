@@ -15,5 +15,18 @@
     "identity": "quicktemplates.lambda.sqs",
     "name": "Quick templates Lambda for SQS queue",
     "shortName": "quicktemplates.lambda.sqs",
-    "sourceName": "MyTemplate"
+    "sourceName": "MyTemplate",
+    "sources": [{
+        "modifiers": [{
+            "exclude": [
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                ".template.config/**/*",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json",
+                "**/.git/**"
+            ]
+        }]
+    }]
 }
